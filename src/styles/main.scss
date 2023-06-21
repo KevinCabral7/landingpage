@@ -1,0 +1,37 @@
+@use 'hero';
+@use 'details';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 24px;
+
+    .container{
+        max-width: 960px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .gradient-1{
+        background-image: linear-gradient( rgb(54, 54, 210), rgb(171, 70, 171));
+    }
+    .gradient-2{
+        background-image: linear-gradient(rgb(171, 70, 171), rgb(218, 218, 45) );
+    }
+    .gradient-3{
+        background-image: linear-gradient( rgb(218, 218, 45), rgb(209, 107, 44));
+    }
+
+    .button{
+        position: relative;
+        color: #fff;
+        margin: 0 auto; 
+        margin-top: 16px;
+        background-color: rgb(212, 141, 35);
+        border: none;
+        padding: 8px;
+        border-radius: 16px;
+    }
+}

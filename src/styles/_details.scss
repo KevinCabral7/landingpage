@@ -1,0 +1,28 @@
+.details{
+    padding: 48px 0;
+    &__img{
+        img{
+            width: 250px;
+        }
+    }
+    &__content{
+        p, h3{
+            padding: 8px;
+            font-size: 16px;
+        }
+        h3{
+            font-weight: bold;
+        }
+    }
+    .container{
+    align-items: center;
+        display: flex;
+        justify-content: space-between;
+        gap: 40; 
+        width: 80%;
+        text-align: center;
+        &--reverse{
+            flex-direction: row-reverse;
+        }
+    }
+}

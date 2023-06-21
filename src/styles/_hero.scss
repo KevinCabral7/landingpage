@@ -1,0 +1,28 @@
+.hero{
+    background-image: url('/dist/imagem-hero.d54a96ec.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 540px;
+    &__title,span{
+    }
+    &::before{
+        content: '';
+        top: 0;
+        left: 0;
+        background-color: black;
+        height: 71%;
+        width: 100%;
+        position: absolute;
+        opacity: 0.5;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        font-weight:500;
+        padding: 8px;
+        position: relative;
+        align-items: center;
+        position: relative; 
+        padding-top: 200px;
+    }
+}
